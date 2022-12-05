@@ -1,0 +1,2 @@
+create index serial_num
+on customer(customer_id);
