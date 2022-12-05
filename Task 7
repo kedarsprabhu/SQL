@@ -1,1 +1,5 @@
+--GROUP BY,HAVING,COUNT
+select count(customer_id),city from customer group by city having count(customer_id)>1;
 
+--SUM 
+select sum(customer_id),city from customer group by city;
