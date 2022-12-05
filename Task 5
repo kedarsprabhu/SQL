@@ -1,0 +1,23 @@
+--Inserting into Customer table
+INSERT INTO customer(customer_id,customer_name,city)
+VALUES(10,'White','London'),
+(11,'Brooke','Delhi'),
+(12,'Ganesh','Chennai'),
+(13,'Park','Singapore'),
+(14,'Leo','Seattle'),
+(15,'kedar','Tokyo');
+(16,'John','New York'),
+(17,'Mary','Paris'),
+(18,'Kevin','Dubai'),
+(19,'Navin','Mumbai'),
+(20,'Dave','Delhi'),
+(21,'Kiran','Delhi');
+
+--Inserting into Orders table
+INSERT INTO orders (customer_id, order_id,item,price)
+VALUES (10,1, 'Sonic Screwdriver', 1000.00),
+(11,2, 'High Quality Broomstick', 40.00),
+(12, 3,'TARDIS', 1000000.00),
+(13,4,'Cereal',130.00),
+(14,5,'Maggie',15.00),
+(15,6,'Wipes',100.00);
