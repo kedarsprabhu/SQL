@@ -1,0 +1,11 @@
+--WHERE CLAUSE
+select customer_name from customer where city='Delhi';
+
+--NOT IN CLAUSE
+select customer_name from customer where not city='Delhi';
+
+--LIKE CLAUSE
+select customer_name from customer where  city LIKE 'D%';
+
+--ORDER BY CLAUSE
+select customer_name,customer_id from customer where  city LIKE 'D%' ORDER BY  customer_id DESC;
